@@ -95,7 +95,7 @@ export const router = createBrowserRouter([
     ),
   },
   {
-    path: "instructors",
+    path: "teachers",
     element: (
       <div>
         <Navbar></Navbar>

@@ -93,10 +93,7 @@ const Login = () => {
       </Helmet>
       <div className="hero-content md:w-1/2 flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left">
-          <iframe
-            className="h-80"
-            src="https://lottie.host/?file=bf356e05-478e-4ffd-bd87-4d16b5fb227e/dsmc2zz4v4.json"
-          ></iframe>
+          
         </div>
         <form
           onSubmit={handleLogin}

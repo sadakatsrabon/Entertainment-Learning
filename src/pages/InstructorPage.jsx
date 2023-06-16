@@ -16,7 +16,7 @@ const InstructorPage = () => {
   } = useQuery({
     queryKey: ["instructors"],
     queryFn: async () => {
-      const res = await fetch("http://localhost:5000/instructors");
+      const res = await fetch("https://education-entertainment-bknd.vercel.app/teachers");
       return res.json();
     },
   });
@@ -32,7 +32,7 @@ const InstructorPage = () => {
         Elevate Your Skills with Expert Mentorship
       </h1>
       <div className="md:grid grid-cols-2 my-6 mx-2 gap-x-6 gap-y-12">
-        {instructors.map((instructor) => (
+        {instructors.length >0 && instructors.map((instructor) => (
           <div
             key={instructor._id}
             className="card md:my-0 my-5 md:card-side bg-base-100 shadow-2xl"
@@ -51,10 +51,10 @@ const InstructorPage = () => {
                     <span className="text-green-500">Name:</span>{" "}
                     <span className=" text-green-500">{instructor.name}</span>
                   </h2>
-                  <p className="mb-2 card-title text-base">
+                  {/* <p className="mb-2 card-title text-base">
                     <span className="text-green-500">Instructor of:</span>{" "}
                     <span className=" text-green-500">{instructor.classes[0]}</span>
-                  </p>
+                  </p> */}
                   <p className="mb-2 card-title text-base">
                     <span className="text-green-500">Current Students:</span>{" "}
                     <span className=" text-green-500">

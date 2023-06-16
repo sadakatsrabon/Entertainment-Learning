@@ -20,7 +20,7 @@ const SocialLogIn = () => {
           name: loggedInUser.displayName,
           email: loggedInUser.email,
         };
-        fetch("http://localhost:5000/user", {
+        fetch("https://education-entertainment-bknd.vercel.app/user", {
           method: "POST",
           headers: {
             "content-type": "application/json",
@@ -59,7 +59,7 @@ const SocialLogIn = () => {
           name: loggedInUser.displayName,
           email: loggedInUser.email,
         };
-        fetch("http://localhost:5000/user", {
+        fetch("https://education-entertainment-bknd.vercel.app/user", {
           method: "POST",
           headers: {
             "content-type": "application/json",
@@ -97,7 +97,7 @@ const SocialLogIn = () => {
         <div className="">
           <button
             onClick={handleGoogleSignIn}
-            className="btn btn-outline btn-circle hover:text-green-900"
+            className="btn btn-outline  hover:text-green-900"
           >
             <FcGoogle></FcGoogle>
           </button>
@@ -105,7 +105,7 @@ const SocialLogIn = () => {
         <div className="">
           <button
             onClick={handleGitHubLogIn}
-            className="btn btn-outline btn-circle hover:text-green-900"
+            className="btn btn-outline hover:text-green-900"
           >
             <FaGithub></FaGithub>
           </button>

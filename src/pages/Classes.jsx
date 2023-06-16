@@ -31,7 +31,7 @@ const Classes = () => {
           classItem: classItem.instructor_name,
           price: classItem.price,
         };
-        fetch("http://localhost:5000/enrolledClass", {
+        fetch("https://education-entertainment-bknd.vercel.app/enrolledClass", {
           method: "POST",
           headers: {
             "content-type": "application/json",

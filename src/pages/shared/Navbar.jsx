@@ -57,7 +57,7 @@ const Navbar = ({ user, logOut }) => {
         <Link to="/">Home</Link>
       </li>
       <li className="font-bold text-base md:text-lg text-white">
-        <Link to="/instructors">instructors</Link>
+        <Link to="/teachers">Teachers</Link>
       </li>
       <li className="font-bold text-base md:text-lg text-white">
         <Link to="/classes">Classes</Link>

@@ -70,7 +70,7 @@ const SignUp = () => {
               photoURL,
               password,
             };
-            fetch("http://localhost:5000/user", {
+            fetch("https://education-entertainment-bknd.vercel.app/user", {
               method: "POST",
               headers: {
                 "content-type": "application/json",
@@ -154,10 +154,7 @@ const SignUp = () => {
       </Helmet>
       <div className="hero-content md:w-1/2 flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left">
-          <iframe
-            className="h-80"
-            src="https://embed.lottiefiles.com/animation/112454"
-          ></iframe>
+         
         </div>
         <div className="card md:w-1/2 max-w-sm shadow-2xl bg-base-100">
           <div className="text-4xl text-center pt-4 font-[lilita one] text-green-500">

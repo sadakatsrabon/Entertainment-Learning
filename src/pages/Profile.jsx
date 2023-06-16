@@ -131,7 +131,7 @@ const Profile = () => {
           ) : (
             <button
               onClick={() => setEditMode(true)}
-              className="mb-4 bg-blue-500 text-white px-4 py-2 rounded"
+              className="mb-4 bg-blue-500 text-green-500 px-4 py-2 rounded"
             >
               <MdEdit className="inline-block mr-2" />
               Edit
@@ -140,7 +140,7 @@ const Profile = () => {
           {editMode && (
             <button
               onClick={handleSave}
-              className="bg-green-500 text-white px-4 py-2 rounded"
+              className="bg-green-500 text-green-500 px-4 py-2 rounded"
             >
               Save
             </button>

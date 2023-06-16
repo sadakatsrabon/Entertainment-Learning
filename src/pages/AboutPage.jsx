@@ -10,41 +10,25 @@ import {
 
 const AboutPage = () => {
   return (
-    <div className=" px-8 text-white">
+    <div className=" px-8 text-green-500">
       <div className="max-w-2xl mx-auto">
         <div className="flex  items-start">
-          <h1 className="text-4xl text-black font-bold mb-4">Welcome to</h1>
+          <h1 className="text-4xl text-green-900 font-bold mb-4">Welcome to</h1>
           <img className="ml-3 h-10" src={name} alt="" />
         </div>
-        <h2 className="text-2xl text-black font-bold mb-4">
+        <h2 className="text-2xl text-green-900 font-bold mb-4">
           Learn, Explore, and Create with Us
         </h2>
-        <p className="text-lg text-slate-900 mb-6">
-          EducationEntertainment is a Summer Camp Learning School that offers a wide range
-          of extra-curricular activities for students to enroll and learn during
-          their summer break. Our mission is to provide an immersive and
-          enriching experience that combines education, creativity, and personal
-          development.
+        <p className="text-lg text-green-900 mb-6">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid laborum, sint quam possimus tenetur harum voluptas iusto beatae similique nam. Cupiditate enim doloribus illum, autem ad ullam nostrum quos soluta distinctio eaque! Ratione quia ipsa fugit mollitia, ex labore molestiae placeat cupiditate facere incidunt maxime exercitationem excepturi atque tempora, nihil aliquid voluptas velit eveniet! Exercitationem, pariatur totam. Aliquid maiores voluptas, praesentium ipsum quisquam sint cumque eum. Explicabo ipsa, nulla dolore alias, nostrum quos aliquid debitis corrupti facilis perspiciatis ipsam quo culpa enim rerum, ducimus minima. Adipisci consequuntur unde non. Numquam voluptates corrupti quam accusantium sed debitis impedit inventore odio necessitatibus?
         </p>
-        <p className="text-slate-900 text-lg mb-6">
-          At EducationEntertainment, we believe that learning goes beyond traditional
-          academics. Our expert instructors are passionate about their craft and
-          are dedicated to guiding students in their artistic journey. Whether
-          it is learning to play a musical instrument, exploring various dance
-          forms, honing acting skills, or discovering the joy of painting, our
-          diverse range of classes allows students to pursue their interests and
-          uncover new talents.
+        <p className="text-green-900 text-lg mb-6">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti iusto quae aspernatur minus, sunt dolorem, totam accusamus corporis autem sapiente iste maiores? Eaque quisquam dicta, adipisci debitis alias labore excepturi pariatur et eveniet consequatur ullam expedita, maiores vel ipsam nisi. Cumque dolore delectus ea temporibus suscipit animi itaque tempore earum cupiditate, perspiciatis necessitatibus numquam, enim minima eaque magnam odit facere libero nisi. Deleniti at quisquam minus nulla quos eveniet alias sequi ut doloribus unde et omnis provident qui, rem nesciunt veniam molestiae explicabo inventore voluptate natus quae. Debitis quaerat neque modi inventore! Magni vero rem at. Vel veritatis voluptate culpa.
         </p>
-        <p className="text-lg text-slate-900 mb-6">
-          We take pride in our vibrant and inclusive community, where students
-          can connect with like-minded individuals and build lifelong
-          friendships. Our state-of-the-art facilities provide a conducive
-          environment for learning and creativity. With small class sizes,
-          personalized attention, and a supportive learning atmosphere, we
-          ensure that each student receives the guidance and encouragement they
-          need to thrive.
+        <p className="text-lg text-green-900 mb-6">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis porro sed accusamus? Sed totam dolor incidunt molestiae quam error debitis quos harum asperiores aliquid unde quo aperiam architecto alias nulla, laboriosam eos optio possimus, sequi officiis et? Voluptates culpa reprehenderit sapiente, commodi quidem dolorum vitae earum iure itaque aperiam adipisci quaerat perferendis temporibus rerum dicta, ut repudiandae officia! Corporis eius fuga, iusto assumenda quas sed sit odit natus tempore omnis consequuntur quam dolorum ullam dolore soluta reprehenderit error sequi atque! Dicta ut delectus perspiciatis neque dignissimos aut. Inventore fugiat asperiores debitis, quos quidem qui quod consequatur, sint odio blanditiis atque.
         </p>
-        <div className="flex mb-6 text-orange-500">
+        <div className="flex mb-6 text-green-500">
           <a
             href="https://www.facebook.com"
             target="_blank"
@@ -69,27 +53,13 @@ const AboutPage = () => {
           >
             <FaInstagram size={24} />
           </a>
-          <a
-            href="https://www.youtube.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mr-4"
-          >
-            <FaYoutube size={24} />
-          </a>
-          <a
-            href="https://www.linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin size={24} />
-          </a>
+         
         </div>
         <div className="flex justify-center">
-          <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded mr-4 ">
-            Our Popular Instructors
+          <button className="text-green-900 hover:bg-orange-600 text-green-500 font-bold py-2 px-4 rounded mr-4 ">
+            Our Popular instructors
           </button>
-          <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded ">
+          <button className="text-green-900 hover:bg-orange-600 text-green-500 font-bold py-2 px-4 rounded ">
             Our Classes
           </button>
         </div>

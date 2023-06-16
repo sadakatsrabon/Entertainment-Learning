@@ -5,7 +5,7 @@ const CallNowPage = () => {
   return (
     <div className="container mx-auto px-4">
       <div className="max-w-md mx-auto bg-black/10 shadow-lg rounded-lg px-8 py-10">
-        <h1 className="text-4xl text-center font-bold text-orange-500 mb-4">
+        <h1 className="text-4xl text-center font-bold text-green-500 mb-4">
           Call Now
         </h1>
         <p className="text-lg text-center mb-8">
@@ -14,14 +14,14 @@ const CallNowPage = () => {
         <div className="grid grid-cols-2 gap-4">
           <a
             href="tel:+1234567890"
-            className="flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-white rounded-lg py-3"
+            className="flex items-center justify-center text-green-900 hover:bg-orange-600 text-green-500 rounded-lg py-3"
           >
             <FiPhone className="mr-2" />
             Phone Call
           </a>
           <a
             href="tel:+1234567890"
-            className="flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-white rounded-lg py-3"
+            className="flex items-center justify-center text-green-900 hover:bg-orange-600 text-green-500 rounded-lg py-3"
           >
             <FiPhoneCall className="mr-2" />
             IP Call
@@ -30,7 +30,7 @@ const CallNowPage = () => {
             href="https://call.whatsapp.com/video/26gX6dStUtrhVmnEz3Cf9v"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-white rounded-lg py-3"
+            className="flex items-center justify-center text-green-900 hover:bg-orange-600 text-green-500 rounded-lg py-3"
           >
             <FiMessageCircle className="mr-2" />
             WhatsApp
@@ -39,7 +39,7 @@ const CallNowPage = () => {
             href="https://t.me/yourusername"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-white rounded-lg py-3"
+            className="flex items-center justify-center text-green-900 hover:bg-orange-600 text-green-500 rounded-lg py-3"
           >
             <FiSend className="mr-2" />
             Telegram
@@ -48,7 +48,7 @@ const CallNowPage = () => {
             href="https://meet.google.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-white rounded-lg py-3"
+            className="flex items-center justify-center text-green-900 hover:bg-orange-600 text-green-500 rounded-lg py-3"
           >
             <FiPhoneCall className="mr-2" />
             Google Duo

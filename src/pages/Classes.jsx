@@ -80,10 +80,10 @@ const Classes = () => {
       <Helmet>
         <title>Class || EducationEntertainment</title>
       </Helmet>
-      <h1 className="text-4xl font-bold text-orange-500 text-center mb-4">
+      <h1 className="text-4xl font-bold text-green-500 text-center mb-4">
         Level Up Your Skills
       </h1>
-      <h1 className="text-2xl font-bold text-slate-900 text-center mb-8">
+      <h1 className="text-2xl font-bold text-green-900 text-center mb-8">
         Our course will help you take your skills to the next level.
       </h1>
       <div className="grid md:grid-cols-3 grid-cols-1 gap-5">
@@ -105,7 +105,7 @@ const Classes = () => {
             ></div>
             <div className="hero-content text-center text-neutral-content">
               <div className="max-w-md">
-                <h1 className="mb-1 text-orange-500 text-5xl font-bold">
+                <h1 className="mb-1 text-green-500 text-5xl font-bold">
                   {classItem.title}
                 </h1>
                 <h1 className="mb-5 text-2xl font-bold">
@@ -114,24 +114,24 @@ const Classes = () => {
 
                 <div className="flex mb-3">
                   <ul className="text-end">
-                    <li className="text-xl font-semibold text-white">
+                    <li className="text-xl font-semibold text-green-500">
                       Available Seats :
                     </li>
-                    <li className="text-xl font-semibold text-white">
+                    <li className="text-xl font-semibold text-green-500">
                       Student Enrolled :{" "}
                     </li>
-                    <li className="text-xl font-semibold text-white">
+                    <li className="text-xl font-semibold text-green-500">
                       Course Coast :{" "}
                     </li>
                   </ul>
                   <ul className="text-start">
-                    <li className="text-xl font-semibold text-orange-500 ml-1">
+                    <li className="text-xl font-semibold text-green-500 ml-1">
                       {classItem.available_seats}
                     </li>
-                    <li className="text-xl font-semibold text-orange-500 ml-1">
+                    <li className="text-xl font-semibold text-green-500 ml-1">
                       {classItem.students_enrolled}
                     </li>
-                    <li className="text-xl font-semibold text-orange-500 ml-1">
+                    <li className="text-xl font-semibold text-green-500 ml-1">
                       {classItem.price}
                     </li>
                   </ul>
@@ -140,7 +140,7 @@ const Classes = () => {
                 <button
                   onClick={() => handleEnroll(classItem)}
                   disabled={classItem.available_seats === 0 ? true : false}
-                  className="btn btn-outline text-white hover:bg-orange-500"
+                  className="btn btn-outline text-green-500 hover:text-green-900"
                 >
                   Acquire
                 </button>

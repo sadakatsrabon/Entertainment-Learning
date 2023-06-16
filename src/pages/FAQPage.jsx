@@ -40,10 +40,10 @@ const FAQPage = () => {
   return (
     <div className="min-h-screen px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold text-orange-500 text-center mb-4">
+        <h1 className="text-4xl font-bold text-green-500 text-center mb-4">
           FAQs
         </h1>
-        <h1 className="text-2xl font-bold text-slate-900 text-center mb-8">
+        <h1 className="text-2xl font-bold text-green-900 text-center mb-8">
           Answers to Your Questions
         </h1>
         <div className="space-y-6">
@@ -53,7 +53,7 @@ const FAQPage = () => {
                 className="flex items-center justify-between cursor-pointer"
                 onClick={() => handleToggle(index)}
               >
-                <h2 className="font-semibold text-slate-900">{faq.question}</h2>
+                <h2 className="font-semibold text-green-900">{faq.question}</h2>
                 <div className="transition-transform">
                   {activeIndex === index ? (
                     <FaMinus className="text-xl" />
@@ -63,7 +63,7 @@ const FAQPage = () => {
                 </div>
               </div>
               {activeIndex === index && (
-                <p className="mt-4 text-slate-900">{faq.answer}</p>
+                <p className="mt-4 text-green-900">{faq.answer}</p>
               )}
             </div>
           ))}

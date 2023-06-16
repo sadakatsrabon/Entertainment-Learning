@@ -12,9 +12,8 @@ const Slider = () => {
     "https://drive.google.com/uc?id=1Lt9joWGRRQIiNtRip1YVDT27EVBXq5KZ",
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [imageLoaded, setImageLoaded] = useState(
-    Array(carouselItems.length).fill(false)
-  );
+  const imageLoaded = false
+    
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -24,15 +23,24 @@ const Slider = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const handleImageLoad = (index) => {
-    const updatedImageLoaded = [...imageLoaded];
-    updatedImageLoaded[index] = true;
-    setImageLoaded(updatedImageLoaded);
-  };
+  
 
   return (
     <div className="container mx-auto m-5">
       <div className="flex flex-col md:flex-row">
+      <div className="w-full md:w-1/2">
+          <h1 className="py-4 text-4xl font-bold text-green-500">
+            Let's learn with Entertainment
+          </h1>
+          <p className="text-green-900 p-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum porro, officiis eaque assumenda quasi atque ullaatis officia, illo minima amet similique, et quod eos totam? Labore voluptas nobis laudantium vel facilis minima, eius molestias ea, consequatur quidem minus eaque earum ducimus ut ab odit suscipit harum eligendi aliquam blanditiis nam tenetur illo magni maiores? Expedita, tempore? Sint rerum at optio laudantium eum nulla? Perferendis praesentium magnam aliquam, id maxime expedita omnis odit distinctio soluta harum aspernatur culpa illo explicabo delectus fuga facilis iusto, asperiores enim commodi? Quibusdam tempoutem. Ea voluptate ratione excepturi eveniet accusamus facilis dicta quibusdam dolor! Voluptate, fuga, veritatis id voluptates animi itaque autem voluptas exercitationem tempore vero porro magni reiciendis fugiat, at iste voluptatum illum suscipit provident accusamus eaque ut eveniet assumenda. Sed est deserunt consequuntur reiciendis.
+          </p>
+          <Link to="/classes">
+            <button className="text-green-900 hover:bg-orange-600 text-green-500 font-bold py-2 px-4 rounded ">
+              Enroll Now
+            </button>
+          </Link>
+        </div>
         <div className="carousel w-full md:w-1/2 rounded-lg overflow-hidden">
           <div
             className="flex"
@@ -45,7 +53,7 @@ const Slider = () => {
               >
                 {!imageLoaded[index] && (
                   <div className="flex items-center justify-center">
-                    <iframe src="https://lottie.host/?file=ac25520e-2c79-49ce-8047-7be92056dd89/cytrNoAY7e.json"></iframe>
+                    <iframe src="https://embed.lottiefiles.com/animation/96684"></iframe>
                   </div>
                 )}
                 <LazyLoad height={762}>
@@ -62,34 +70,7 @@ const Slider = () => {
             ))}
           </div>
         </div>
-        <div className="w-full md:w-1/2">
-          <h1 className="py-4 text-4xl font-bold text-orange-500">
-            Discover Your Musical Potential
-          </h1>
-          <p className="text-slate-900 p-4">
-            EducationEntertainment is an exceptional music instrument learning platform that
-            caters to both online and offline learners. Whether you prefer the
-            convenience of online lessons or the interactive experience of
-            in-person instruction, EducationEntertainment is your ultimate destination.
-            During the summer season vacation, we offer a diverse range of
-            engaging and immersive music lessons, tailored to help you unlock
-            your musical talents on your favorite instrument. Our team of expert
-            instructors specializes in teaching a variety of instruments,
-            including guitar, piano, drums, and more. With flexible scheduling
-            options, you have the freedom to learn at your own pace and in the
-            comfort of your own home through our user-friendly online platform.
-            Alternatively, you can opt for in-person lessons at one of our
-            physical locations. Experience the sheer joy of music and make the
-            most of your summer break with EducationEntertainment, where your journey
-            towards mastering an instrument becomes a truly enjoyable and
-            fulfilling experience, no matter where you are.
-          </p>
-          <Link to="/classes">
-            <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded ">
-              Enroll Now
-            </button>
-          </Link>
-        </div>
+        
       </div>
       <div className="bg-black rounded my-12 h-1 w-full"></div>
     </div>

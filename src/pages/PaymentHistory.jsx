@@ -19,9 +19,9 @@ const PaymentHistory = () => {
   return (
     <div className="text-center place-items-center grid">
       <Helmet>
-        <title> History || EducationEntertainment</title>
+        <title> History</title>
       </Helmet>
-      <h1 className="text-3xl text-center text-black font-bold mb-4">
+      <h1 className="text-3xl text-center text-green-900 font-bold mb-4">
         Payment History
       </h1>
       <div>

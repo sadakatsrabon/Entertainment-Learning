@@ -68,49 +68,49 @@ const Dashboard = () => {
       <Link
         onClick={toggleMenu}
         to="acquiredClass"
-        className="border-transparent text-orange-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
+        className="border-transparent text-green-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
       >
         My Acquired Classes
       </Link>
       <Link
         onClick={toggleMenu}
         to="enrolled"
-        className="border-transparent text-orange-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
+        className="border-transparent text-green-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
       >
         Enrolled Class
       </Link>
       <Link
         onClick={toggleMenu}
         to="paymentHistory"
-        className="border-transparent text-orange-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
+        className="border-transparent text-green-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
       >
         Payment History
       </Link>
       <Link
         onClick={toggleMenu}
         to="/"
-        className="border-transparent text-orange-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
+        className="border-transparent text-green-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
       >
         Home
       </Link>
       <Link
         onClick={toggleMenu}
         to="profile"
-        className="border-transparent text-orange-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
+        className="border-transparent text-green-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
       >
         My Profile
       </Link>
       <Link
         onClick={toggleMenu}
         to="changePassword"
-        className="border-transparent text-orange-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
+        className="border-transparent text-green-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
       >
         Change Password
       </Link>
       <Link
         onClick={handleLogOut}
         to="/"
-        className="border-transparent text-orange-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
+        className="border-transparent text-green-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
       >
         Logout
       </Link>
@@ -120,14 +120,14 @@ const Dashboard = () => {
       <Link
         onClick={toggleMenu}
         to="menageUser"
-        className="border-transparent text-orange-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
+        className="border-transparent text-green-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
       >
         Menage User
       </Link>
       <Link
         onClick={toggleMenu}
         to="enrolled"
-        className="border-transparent text-orange-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
+        className="border-transparent text-green-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
       >
         Menage Class
       </Link>
@@ -135,28 +135,28 @@ const Dashboard = () => {
       <Link
         onClick={toggleMenu}
         to="/"
-        className="border-transparent text-orange-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
+        className="border-transparent text-green-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
       >
         Home
       </Link>
       <Link
         onClick={toggleMenu}
         to="profile"
-        className="border-transparent text-orange-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
+        className="border-transparent text-green-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
       >
         My Profile
       </Link>
       <Link
         onClick={toggleMenu}
         to="changePassword"
-        className="border-transparent text-orange-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
+        className="border-transparent text-green-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
       >
         Change Password
       </Link>
       <Link
         onClick={handleLogOut}
         to="/"
-        className="border-transparent text-orange-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
+        className="border-transparent text-green-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
       >
         Logout
       </Link>
@@ -165,7 +165,7 @@ const Dashboard = () => {
   return (
     <div className="min-h-screen pt-8">
       <Helmet>
-        <title>Dashboard || EducationEntertainment</title>
+        <title>Dashboard</title>
       </Helmet>
       {/* Dashboard Menu */}
       {!isAdminLoading && (

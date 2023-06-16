@@ -76,17 +76,17 @@ const AllUsers = () => {
 
   return (
     <div>
-      <h1 className="text-3xl text-center text-black font-bold mb-4">
+      <h1 className="text-3xl text-center text-green-900 font-bold mb-4">
         Menage All Users
       </h1>
       <div className="w-full flex justify-center items-center mt-8">
         <div>
           <Helmet>
-            <title> Menage Users || EducationEntertainment</title>
+            <title>Users</title>
           </Helmet>
           <div className="flex justify-between p-4">
-            <h2 className="text-xl font-bold text-black">
-              Total User: <span className="text-black">{users.length}</span>
+            <h2 className="text-xl font-bold text-green-900">
+              Total User: <span className="text-green-900">{users.length}</span>
             </h2>
           </div>
 
@@ -115,13 +115,13 @@ const AllUsers = () => {
                         <div className="flex">
                           <button
                             onClick={() => handleMakeAdmin(user)}
-                            className="text-white text-center p-1 font-semibold rounded bg-orange-500 mr-2"
+                            className="text-green-500 text-center p-1 font-semibold rounded text-green-900 mr-2"
                           >
                             Make Admin
                           </button>
                           <button
                             onClick={() => handleMakeAdmin(user)}
-                            className="text-white text-center p-1 font-semibold rounded bg-orange-500"
+                            className="text-green-500 text-center p-1 font-semibold rounded text-green-900"
                           >
                             Make Instructor
                           </button>
@@ -131,13 +131,13 @@ const AllUsers = () => {
                         <div className="flex">
                           <button
                             onClick={() => handleMakeAdmin(user)}
-                            className="text-white text-center p-1 font-semibold rounded bg-orange-500 mr-2"
+                            className="text-green-500 text-center p-1 font-semibold rounded text-green-900 mr-2"
                           >
                             Make User
                           </button>
                           <button
                             onClick={() => handleMakeAdmin(user)}
-                            className="text-white text-center p-1 font-semibold rounded bg-orange-500"
+                            className="text-green-500 text-center p-1 font-semibold rounded text-green-900"
                           >
                             Make Admin
                           </button>
@@ -147,7 +147,7 @@ const AllUsers = () => {
                     <td>
                       <button
                         onClick={() => handleDelete(user)}
-                        className="btn btn-outline bg-red-600 text-white"
+                        className="btn btn-outline bg-red-600 text-green-500"
                       >
                         <FaRegTrashAlt></FaRegTrashAlt>
                       </button>

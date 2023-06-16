@@ -1,8 +1,8 @@
-import React from "react";
+
 import { useQuery } from "react-query";
 import { Link } from "react-router-dom";
 
-const Instructors = () => {
+const instructors = () => {
   const {
     data: instructors = [],
     isLoading: loading,
@@ -16,10 +16,10 @@ const Instructors = () => {
   });
   return (
     <div>
-      <h1 className="text-4xl font-bold text-orange-500 text-center mb-4">
-        Expert Instructors
+      <h1 className="text-4xl font-bold text-green-500 text-center mb-4">
+        Expert instructors
       </h1>
-      <h1 className="text-2xl font-bold text-slate-900 text-center mb-8">
+      <h1 className="text-2xl font-bold text-green-900 text-center mb-8">
         Unlock Your Potential with Exceptional Guidance
       </h1>
       <div className="md:grid grid-cols-2 my-6 mx-2 gap-x-6 gap-y-12">
@@ -38,7 +38,7 @@ const Instructors = () => {
             <div className="card-body md:w-1/2 md:h-auto h-1/2">
               <h2 className="card-title text-base">
                 Hei I'm{" "}
-                <span className="font-serif text-xl text-orange-500">
+                <span className="font-serif text-xl text-green-500">
                   {instructor.name}
                 </span>
               </h2>
@@ -71,4 +71,4 @@ const Instructors = () => {
   );
 };
 
-export default Instructors;
+export default instructors;

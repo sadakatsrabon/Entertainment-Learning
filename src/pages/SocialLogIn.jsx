@@ -92,12 +92,12 @@ const SocialLogIn = () => {
   };
   return (
     <div className="">
-      <div className="divider text-orange-500">Or login with social media</div>
+      <div className="divider text-green-500">Or login with social media</div>
       <div className="flex justify-center mx-3 gap-2">
         <div className="">
           <button
             onClick={handleGoogleSignIn}
-            className="btn btn-outline btn-circle hover:bg-orange-500"
+            className="btn btn-outline btn-circle hover:text-green-900"
           >
             <FcGoogle></FcGoogle>
           </button>
@@ -105,7 +105,7 @@ const SocialLogIn = () => {
         <div className="">
           <button
             onClick={handleGitHubLogIn}
-            className="btn btn-outline btn-circle hover:bg-orange-500"
+            className="btn btn-outline btn-circle hover:text-green-900"
           >
             <FaGithub></FaGithub>
           </button>

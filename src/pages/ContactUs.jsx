@@ -10,7 +10,7 @@ const ContactUs = () => {
   return (
     <div className="container px-4 mx-auto">
       <div className="max-w-md mx-auto">
-        <h1 className="text-4xl text-center font-bold text-orange-500 mb-4">
+        <h1 className="text-4xl text-center font-bold text-green-500 mb-4">
           Contact Us
         </h1>
         <h2 className="text-lg text-center mb-8">
@@ -43,7 +43,7 @@ const ContactUs = () => {
           </div>
           <button
             type="submit"
-            className="bg-orange-500 hover:bg-orange-600 text-white font-bold  py-2 px-4 rounded focus:outline-none"
+            className="text-green-900 hover:bg-orange-600 text-green-500 font-bold  py-2 px-4 rounded focus:outline-none"
           >
             Get in Touch
           </button>

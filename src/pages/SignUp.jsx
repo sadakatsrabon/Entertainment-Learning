@@ -150,7 +150,7 @@ const SignUp = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
       <Helmet>
-        <title> Registration || EducationEntertainment</title>
+        <title> Registration </title>
       </Helmet>
       <div className="hero-content md:w-1/2 flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left">
@@ -160,7 +160,7 @@ const SignUp = () => {
           ></iframe>
         </div>
         <div className="card md:w-1/2 max-w-sm shadow-2xl bg-base-100">
-          <div className="text-4xl text-center pt-4 font-[lilita one] text-orange-500">
+          <div className="text-4xl text-center pt-4 font-[lilita one] text-green-500">
             Register
           </div>
           <form onSubmit={handleSubmit(onSubmit)} className="card-body">
@@ -404,7 +404,7 @@ const SignUp = () => {
               <small>
                 Already have an account?
                 <Link
-                  className="text-orange-500 font-bold font-serif"
+                  className="text-green-500 font-bold font-serif"
                   to="/login"
                 >
                   Log in
@@ -417,7 +417,7 @@ const SignUp = () => {
                 disabled={disabled}
                 type="submit"
                 value="Sign Up"
-                className=" bg-orange-500 btn btn-primary"
+                className=" text-green-900 btn btn-primary"
               />
             </div>
           </form>

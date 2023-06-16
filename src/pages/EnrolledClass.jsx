@@ -11,15 +11,15 @@ const EnrolledClass = () => {
   return (
     <div className="text-center place-items-center grid">
       <Helmet>
-        <title> My Class || EducationEntertainment</title>
+        <title>Class</title>
       </Helmet>
-      <h1 className="text-3xl text-center text-black font-bold mb-4">
+      <h1 className="text-3xl text-center text-green-900 font-bold mb-4">
         My Enrolled Class
       </h1>
       <div className="w-full grid grid-cols-1 max-w-xs text-center place-items-center mt-8">
         {enrolled.map((classItem, index) => (
           <div key={classItem._id}>
-            <h1 className="text-orange-500 text-2xl text-center my-3">
+            <h1 className="text-green-500 text-2xl text-center my-3">
               Coast of item:{" "}
               <span className="font-semibold">${classItem.amount}</span>
             </h1>

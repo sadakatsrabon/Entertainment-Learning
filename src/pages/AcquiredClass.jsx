@@ -41,20 +41,20 @@ const AcquiredClass = () => {
   return (
     <div className="w-full flex justify-center items-center mt-8">
       <Helmet>
-        <title>My Acquired || EducationEntertainment</title>
+        <title>My Acquired</title>
       </Helmet>
       {acquiredClass.length !== 0 ? (
         <div>
           <div className=" py-4 px-6 flex items-center justify-between">
-            <h2 className="text-2xl font-bold text-black mr-3">
+            <h2 className="text-2xl font-bold text-green-900 mr-3">
               Acquired:{" "}
               <span className="text-slate-700">{acquiredClass.length}</span>
             </h2>
-            <h2 className="text-2xl font-bold text-black mr-3">
+            <h2 className="text-2xl font-bold text-green-900 mr-3">
               Cost: <span className="text-slate-700">${total}</span>
             </h2>
             <Link to="/dashboard/payment">
-              <button className="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-700 focus:outline-none">
+              <button className="text-green-900 text-green-500 px-4 py-2 rounded-md hover:bg-green-700 focus:outline-none">
                 Pay
               </button>
             </Link>
@@ -94,7 +94,7 @@ const AcquiredClass = () => {
                     <td className="py-2">
                       <button
                         onClick={() => handleDelete(classItem)}
-                        className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 focus:outline-none"
+                        className="bg-red-600 text-green-500 px-4 py-2 rounded-md hover:bg-red-700 focus:outline-none"
                       >
                         <FaRegTrashAlt />
                       </button>
@@ -109,7 +109,7 @@ const AcquiredClass = () => {
         <div className=" py-4 px-6 flex items-center justify-between">
           <h1>You do not have any Acquired Class </h1>
           <Link to="/classes">
-            <button className="ml-4 bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-700 focus:outline-none">
+            <button className="ml-4 text-green-900 text-green-500 px-4 py-2 rounded-md hover:bg-green-700 focus:outline-none">
               All Classes
             </button>
           </Link>

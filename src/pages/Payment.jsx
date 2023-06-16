@@ -16,7 +16,7 @@ const Payment = () => {
     <div className="w-full flex justify-center items-center mt-8">
       <div>
         <Helmet>
-          <title>Payment || EducationEntertainment</title>
+          <title>Payment</title>
         </Helmet>
 
         <div className="flex justify-center items-center mb-8 bg-gray-100">
@@ -90,7 +90,7 @@ const Payment = () => {
 
               <div className="flex justify-center my-4">
                 <button
-                  className="bg-[#D1A054] disabled hover:bg-[#ee9104] text-white font-bold py-3 px-6 rounded-full focus:outline-none focus:shadow-outline"
+                  className="bg-[#D1A054] disabled hover:bg-[#ee9104] text-green-500 font-bold py-3 px-6 rounded-full focus:outline-none focus:shadow-outline"
                   type="submit"
                 >
                   Pay Now

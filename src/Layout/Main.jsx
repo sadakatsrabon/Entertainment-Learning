@@ -5,7 +5,7 @@ import Footer from "../pages/shared/Footer";
 import "./Main.css";
 import Slider from "../pages/Slider";
 import ClassCategory from "../pages/ClassCategory";
-import Instructors from "../pages/Instructors";
+import instructors from "../pages/instructors";
 
 const Main = () => {
   return (
@@ -15,12 +15,10 @@ const Main = () => {
         <div className="pt-24 text-center">
           <Slider></Slider>
           <ClassCategory></ClassCategory>
-          <Instructors></Instructors>
+          <instructors></instructors>
         </div>
         <div className="flex flex-col md:flex-row pt-24">
-          <div className="w-full md:w-1/2 md:sticky md:top-0">
-            {/* <img src={banner} alt="" /> */}
-          </div>
+          
           <div className="w-full md:w-1/2 md:h-screen md:overflow-y-auto hide-scrollbar">
             <div className="h-screen md:max-h-screen">
               <div className="h-full overflow-y-auto">

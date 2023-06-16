@@ -13,10 +13,10 @@ const ClassCategory = () => {
 
   return (
     <div className="container mx-auto px-4">
-      <h1 className="text-4xl font-bold text-orange-500 text-center mb-4">
+      <h1 className="text-4xl font-bold text-green-500 text-center mb-4">
         Enchanting Courses
       </h1>
-      <h1 className="text-2xl font-bold text-slate-900 text-center mb-8">
+      <h1 className="text-2xl font-bold text-green-900 text-center mb-8">
         Unleash Your Potential and Explore New Horizons
       </h1>
       <Swiper
@@ -41,12 +41,12 @@ const ClassCategory = () => {
                 />
                 <div className="absolute inset-0 bg-black opacity-30"></div>
                 <div className="absolute bottom-0 w-full text-center">
-                  <h3 className="md:text-4xl uppercase text-orange-500 font-bold shadow-xl">
+                  <h3 className="md:text-4xl uppercase text-green-500 font-bold shadow-xl">
                     {classItem.title}{" "}
                     <span className="md:text-2xl text-slate-300">tutor</span>{" "}
                     <br />
                   </h3>
-                  <h2 className="md:text-3xl shadow-xl pb-10 text-white font-bold">
+                  <h2 className="md:text-3xl shadow-xl pb-10 text-green-500 font-bold">
                     {classItem.instructor_name}
                   </h2>
                 </div>

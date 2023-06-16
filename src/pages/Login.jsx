@@ -89,7 +89,7 @@ const Login = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
       <Helmet>
-        <title> Login || EducationEntertainment</title>
+        <title> Login </title>
       </Helmet>
       <div className="hero-content md:w-1/2 flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left">
@@ -166,7 +166,7 @@ const Login = () => {
               <small>
                 New here?
                 <Link
-                  className="text-orange-500 font-bold font-serif"
+                  className="text-green-500 font-bold font-serif"
                   to="/signup"
                 >
                   Create an Account
@@ -178,7 +178,7 @@ const Login = () => {
                 disabled={disabled}
                 type="submit"
                 value="Login"
-                className=" bg-orange-500 btn btn-primary"
+                className=" text-green-900 btn btn-primary"
               />
             </div>
             <SocialLogIn></SocialLogIn>
